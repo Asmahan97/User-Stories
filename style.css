@@ -1,0 +1,16 @@
+
+  
+  body {
+    max-width: 30rem;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+ 
+  input:not([type="checkbox"]):not([type="radio"]),
+  button,
+  textarea {
+    display: block;
+    font: inherit;
+    color: inherit;
+  }
