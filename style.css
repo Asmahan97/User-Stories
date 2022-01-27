@@ -1,3 +1,4 @@
+ navigation-menu
  *{
 margin: 0px; /*remove margin and padding to remove basic styling  so that it's styled as I want it to be*/
 padding: 0px;
@@ -36,3 +37,21 @@ font-size: 20px ;
 .nav-links li{
     list-style: none; /*remove bullet points*/
 }
+
+
+  
+  body {
+    max-width: 30rem;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+ 
+  input:not([type="checkbox"]):not([type="radio"]),
+  button,
+  textarea {
+    display: block;
+    font: inherit;
+    color: inherit;
+  }
+ main
