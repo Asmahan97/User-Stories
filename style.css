@@ -54,4 +54,92 @@ font-size: 20px ;
     font: inherit;
     color: inherit;
   }
+
+.container {
+    text-align: center;
+    background-color: #D3D3D3
+}
+
+.header {
+    padding-top: 30px;
+    color: #0B132B;
+    font-size: 20px ;
+    margin: auto; 
+    line-height: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sub-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px 0px;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+}
+
+.teams {
+    margin: 10px;
+    padding: 22px;
+    max-width: 30%;
+     cursor: pointer;
+     transition: 0.4s;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+}
+
+.teams:hover {
+    background-color: #afb2b3; /*teams section's bg-colour changes when you hover*/
+    border-radius: 12px; /*rounded edges instead of pointy edges*/
+}
+
+.teams img {
+    width: 200px;
+    height: 200px;
+
+}
+
+.name {
+    padding:  12px;
+    font-weight: bold;
+     font-size: 16px;
+     text-transform: uppercase;
+     font-family: 'Poppins', sans-serif;
+}
+
+.role {
+    font-style: italic;
+    color: #36393a;
+}
+
+.about {
+    margin: 20px 0;
+    font-weight: lighter;
+    color: #202222;
+}
+
+.social-links {
+    margin: 14px;
+}
+
+.social-links a{
+    display: inline-block; /*allows you to edit width and height of icons*/
+    height: 30px;
+    width: 30px;
+    transition: 0.4s; /*transition when you hover over*/
+ }
+
+ .social-links a:hover {
+     transform: scale(1.5); /*icons increase in size when you hover over them*/
+ }
+
+ .social-links i{
+     color: #0B132B;
+ }
+
+ @media screen {
+     .teams {
+         max-width: 100%; /*allows for everything to be seen clearly on a smaller screen without elements overlapping */
+     }
+    }
  main
