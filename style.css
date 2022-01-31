@@ -40,15 +40,13 @@ font-size: 20px ;
 
 
   
-  body {
+ form {
     max-width: 30rem;
     margin: 0 auto;
     padding: 2rem;
   }
-  
+   
  
-  input:not([type="checkbox"]):not([type="radio"]),
-  button,
   textarea {
     display: block;
     font: inherit;
@@ -142,4 +140,4 @@ font-size: 20px ;
          max-width: 100%; /*allows for everything to be seen clearly on a smaller screen without elements overlapping */
      }
     }
- main
+
