@@ -1,4 +1,4 @@
- navigation-menu
+ 
  *{
 margin: 0px; /*remove margin and padding to remove basic styling  so that it's styled as I want it to be*/
 padding: 0px;
@@ -38,20 +38,40 @@ font-size: 20px ;
     list-style: none; /*remove bullet points*/
 }
 
-
   
- form {
-    max-width: 30rem;
+.contact-us {
+    max-width: 50rem;
     margin: 0 auto;
     padding: 2rem;
+    border: 2px solid grey;
+    border-radius: 5px;
+   
   }
    
- 
+ .form {
+     display: flex;
+     justify-self:center;
+     background-color:#D3D3D3;
+     border: 2px solid grey;
+ }
+  textarea {
+    display: block;
+    font: inherit;
+    color: inherit;
+  
+  }
+  input:not([type="checkbox"]):not([type="radio"]),
+  button,
   textarea {
     display: block;
     font: inherit;
     color: inherit;
   }
+
+  .about-us {
+    font-family: 'Poppins', sans-serif;
+    background-color: #afb2b3
+}
 
 .container {
     text-align: center;
